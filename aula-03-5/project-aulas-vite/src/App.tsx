@@ -2,7 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Card from './components/Card' // Card component import
+import Card from './components/Card'        // Card component import
+import Counter from './components/Counter'  // Counter component import
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,11 +32,15 @@ function App() {
       </p>
 
       {/* Card component usage below (aula 3 exercise)*/}
-      <Card
-        title="React + TypeScript Card"
-        description="This is a styled card component for Aula 03-5."
-        buttonText="Show Alert"
-      />
+      <div className="exercise-group">
+        <Card
+          title="React + TypeScript Card"
+          description="This is a stylised card component for Aula 03-5."
+          buttonText="Show Alert"
+        />
+        {/* Counter component usage below (aula 4 exercise) */}
+        <Counter />
+      </div>
     </>
   )
 }

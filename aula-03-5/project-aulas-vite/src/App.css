@@ -40,3 +40,10 @@
 .read-the-docs {
   color: #888;
 }
+
+.exercise-group {
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
