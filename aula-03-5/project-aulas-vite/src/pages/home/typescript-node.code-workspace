@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../../../workspaces/typescript-node"
+		},
+		{
+			"name": "frontend2-aulas",
+			"path": "../../../../.."
+		}
+	],
+	"settings": {}
+}
